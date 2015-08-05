@@ -1,0 +1,13 @@
+<template name="bForm">
+  <form class="form-horizontal">
+    {{> UI.contentBlock
+        data=data
+        context=context
+    }}
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-info pull-right">{{submit}}</button>
+      </div>
+    </div>
+  </form>
+</template>
